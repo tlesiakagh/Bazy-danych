@@ -1,0 +1,29 @@
+1.
+
+Zale¿noœci funkcyjne:
+ - id_produktu -> nazwa_produktu, cena_produktu, VAT,
+ - id_klienta -> nazwa_klienta, data_zamówienia, iloœæ, suma_brutto, suma_netto
+ - cena_produktu, iloœæ -> suma_netto
+ - suma_netto, VAT -> suma_brutto
+
+2.
+
+Klucze kandyduj¹ce:
+ - id_produktu,
+ - id_klienta,
+ - nazwa_produktu,
+ - nazwa_klienta,
+ - VAT,
+ - suma_brutto + suma_netto.
+
+3.
+
+Zale¿noœci funkcyjne:
+ - id_pomieszczenia -> numer_pomieszczenia, powierzchnia, liczba_okien, liczba_drzwi
+ - id_budynku -> ulica, miasto, kod_pocztowy
+ - miasto -> kod_pocztowy
+ - ulica, kod_pocztowy -> miasto
+
+Klucze kandyduj¹ce:
+ - id_pomieszczenia,
+ - id_budynku + numer_pomieszczenia.
